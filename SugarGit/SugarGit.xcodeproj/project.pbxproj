@@ -18,12 +18,12 @@
 		DE63996624FB9D9C00DF55E1 /* CCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE63996424FB9D9C00DF55E1 /* CCViewController.xib */; };
 		DE63996B24FB9F0400DF55E1 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63996924FB9F0400DF55E1 /* UserVC.swift */; };
 		DE63996C24FB9F0400DF55E1 /* UserVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE63996A24FB9F0400DF55E1 /* UserVC.xib */; };
-		DE63996F24FB9F1100DF55E1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63996D24FB9F1100DF55E1 /* HomeVC.swift */; };
-		DE63997024FB9F1100DF55E1 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE63996E24FB9F1100DF55E1 /* HomeVC.xib */; };
 		DE63998D24FBB12900DF55E1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE63998C24FBB12900DF55E1 /* Home.storyboard */; };
 		DE63999024FBB13B00DF55E1 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE63998E24FBB13B00DF55E1 /* Live.storyboard */; };
 		DE63999224FBB14E00DF55E1 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE63999124FBB14E00DF55E1 /* Follow.storyboard */; };
 		DE63999524FBB15A00DF55E1 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE63999324FBB15A00DF55E1 /* User.storyboard */; };
+		DE63999724FBB28700DF55E1 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63999624FBB28700DF55E1 /* MainTabBarController.swift */; };
+		DE63999C24FBB78500DF55E1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63999B24FBB78500DF55E1 /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,12 +40,12 @@
 		DE63996424FB9D9C00DF55E1 /* CCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCViewController.xib; sourceTree = "<group>"; };
 		DE63996924FB9F0400DF55E1 /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
 		DE63996A24FB9F0400DF55E1 /* UserVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserVC.xib; sourceTree = "<group>"; };
-		DE63996D24FB9F1100DF55E1 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		DE63996E24FB9F1100DF55E1 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
-		DE63998C24FBB12900DF55E1 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = SugarGit/HomeVC/Home.storyboard; sourceTree = "<group>"; };
+		DE63998C24FBB12900DF55E1 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		DE63998F24FBB13B00DF55E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SugarGit/Base.lproj/Live.storyboard; sourceTree = "<group>"; };
 		DE63999124FBB14E00DF55E1 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
 		DE63999424FBB15A00DF55E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SugarGit/Base.lproj/User.storyboard; sourceTree = "<group>"; };
+		DE63999624FBB28700DF55E1 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		DE63999B24FBB78500DF55E1 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				DE63999324FBB15A00DF55E1 /* User.storyboard */,
-				DE63999124FBB14E00DF55E1 /* Follow.storyboard */,
-				DE63998E24FBB13B00DF55E1 /* Live.storyboard */,
-				DE63998C24FBB12900DF55E1 /* Home.storyboard */,
 				DE63994C24FB9C5D00DF55E1 /* SugarGit */,
 				DE63994B24FB9C5D00DF55E1 /* Products */,
 			);
@@ -82,10 +79,10 @@
 		DE63994C24FB9C5D00DF55E1 /* SugarGit */ = {
 			isa = PBXGroup;
 			children = (
-				DE63998B24FBAF0400DF55E1 /* FollowVC */,
-				DE63998A24FBAEF700DF55E1 /* LiveVC */,
-				DE63996824FB9EC400DF55E1 /* UserVC */,
 				DE63996724FB9EBB00DF55E1 /* HomeVC */,
+				DE63998A24FBAEF700DF55E1 /* LiveVC */,
+				DE63998B24FBAF0400DF55E1 /* FollowVC */,
+				DE63996824FB9EC400DF55E1 /* UserVC */,
 				DE63994D24FB9C5D00DF55E1 /* AppDelegate.swift */,
 				DE63994F24FB9C5D00DF55E1 /* ViewController.swift */,
 				DE63995F24FB9D1B00DF55E1 /* BBViewController.swift */,
@@ -103,8 +100,11 @@
 		DE63996724FB9EBB00DF55E1 /* HomeVC */ = {
 			isa = PBXGroup;
 			children = (
-				DE63996D24FB9F1100DF55E1 /* HomeVC.swift */,
-				DE63996E24FB9F1100DF55E1 /* HomeVC.xib */,
+				DE63999824FBB74E00DF55E1 /* Model */,
+				DE63999A24FBB74E00DF55E1 /* View */,
+				DE63999924FBB74E00DF55E1 /* ViewController */,
+				DE63998C24FBB12900DF55E1 /* Home.storyboard */,
+				DE63999624FBB28700DF55E1 /* MainTabBarController.swift */,
 			);
 			path = HomeVC;
 			sourceTree = "<group>";
@@ -121,6 +121,7 @@
 		DE63998A24FBAEF700DF55E1 /* LiveVC */ = {
 			isa = PBXGroup;
 			children = (
+				DE63998E24FBB13B00DF55E1 /* Live.storyboard */,
 			);
 			path = LiveVC;
 			sourceTree = "<group>";
@@ -128,8 +129,31 @@
 		DE63998B24FBAF0400DF55E1 /* FollowVC */ = {
 			isa = PBXGroup;
 			children = (
+				DE63999124FBB14E00DF55E1 /* Follow.storyboard */,
 			);
 			path = FollowVC;
+			sourceTree = "<group>";
+		};
+		DE63999824FBB74E00DF55E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE63999924FBB74E00DF55E1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE63999B24FBB78500DF55E1 /* HomeVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DE63999A24FBB74E00DF55E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +222,6 @@
 				DE63999224FBB14E00DF55E1 /* Follow.storyboard in Resources */,
 				DE63996624FB9D9C00DF55E1 /* CCViewController.xib in Resources */,
 				DE63996C24FB9F0400DF55E1 /* UserVC.xib in Resources */,
-				DE63997024FB9F1100DF55E1 /* HomeVC.xib in Resources */,
 				DE63999524FBB15A00DF55E1 /* User.storyboard in Resources */,
 				DE63998D24FBB12900DF55E1 /* Home.storyboard in Resources */,
 			);
@@ -212,9 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE63996124FB9D1B00DF55E1 /* BBViewController.swift in Sources */,
+				DE63999C24FBB78500DF55E1 /* HomeVC.swift in Sources */,
 				DE63996B24FB9F0400DF55E1 /* UserVC.swift in Sources */,
+				DE63999724FBB28700DF55E1 /* MainTabBarController.swift in Sources */,
 				DE63995024FB9C5D00DF55E1 /* ViewController.swift in Sources */,
-				DE63996F24FB9F1100DF55E1 /* HomeVC.swift in Sources */,
 				DE63996524FB9D9C00DF55E1 /* CCViewController.swift in Sources */,
 				DE63994E24FB9C5D00DF55E1 /* AppDelegate.swift in Sources */,
 			);
