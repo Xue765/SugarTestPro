@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2Vx-Xi-lfs">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--我的-->
+        <scene sceneID="kFt-ge-wkH">
+            <objects>
+                <viewController id="Mdt-yc-dqr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XR8-2v-FVr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="1jV-0v-TNB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="我的" id="TrE-YE-qpR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T6i-5a-BUw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="909" y="1544"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="Rux-BL-drL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2Vx-Xi-lfs" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的" image="accountTab" selectedImage="accountTabSelect" id="v5z-7R-Sgc"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EJN-a6-NT3">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Mdt-yc-dqr" kind="relationship" relationship="rootViewController" id="RB7-Tv-e2c"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FYb-Ml-qaJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3" y="1543"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="accountTab" width="23" height="25.5"/>
+        <image name="accountTabSelect" width="23" height="25"/>
+    </resources>
+</document>

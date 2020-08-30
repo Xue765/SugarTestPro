@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8k1-Bq-7gc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--直播-->
+        <scene sceneID="eoY-Zw-g8M">
+            <objects>
+                <viewController id="Zly-Ob-J2i" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AhT-II-rBZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="jJr-Qz-obI"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="直播" id="NXc-wZ-pzM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oAY-9A-SaE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="839.13043478260875" y="140.625"/>
+        </scene>
+        <!--直播-->
+        <scene sceneID="Dwz-vu-yry">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8k1-Bq-7gc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="直播" image="investTab" selectedImage="investTabSelect" id="T4x-ev-BV9"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PbL-vu-OoH">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Zly-Ob-J2i" kind="relationship" relationship="rootViewController" id="tIf-X8-XQM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Bs-bS-Rkf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-71.014492753623188" y="140.625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="investTab" width="25" height="25"/>
+        <image name="investTabSelect" width="25" height="24.5"/>
+    </resources>
+</document>
